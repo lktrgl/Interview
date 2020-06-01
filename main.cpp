@@ -21,7 +21,7 @@ using namespace std::chrono_literals;
 
 
 
-int main()
+int main ( [[maybe_unused]]int argc, [[maybe_unused]]char* argv[] )
 {
   std::cout << __PRETTY_FUNCTION__ << ":" << __LINE__ << std::endl;
 
