@@ -13,6 +13,7 @@ void catchType();
 
 using namespace std;
 using namespace std::chrono;
+using namespace std::chrono_literals;
 
 //----------------------------------
 // Put your code below :
