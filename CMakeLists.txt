@@ -9,6 +9,10 @@ set (CMAKE_C_FLAGS "-O0 -g3 -Wall -Wextra -Werror -Wno-error=unused-variable -Wn
 
 find_package (Threads REQUIRED)
 
+include_directories (
+				contrib/lggm/include
+				)
+
 add_executable (interview_cpp
 				main.cpp
 				mega_cpp_include.h
