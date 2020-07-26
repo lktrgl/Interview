@@ -1,4 +1,7 @@
-#include "mega_cpp_include.h"
+#include <tc_interview.h>
+
+#include <mega_cpp_include.h>
+#include <lggm/lggm.h>
 
 //----------------------------------
 // use the dummy call finding out the actual type
@@ -23,17 +26,14 @@ using namespace std::chrono_literals;
 
 int main ( [[maybe_unused]]int argc, [[maybe_unused]]char* argv[] )
 {
-  std::cout << __PRETTY_FUNCTION__ << ":" << __LINE__ << std::endl;
+  LGGM_SS();
 
   //----------------------------------
   // Put your code below :
 
+  tc_interview_launch();
 
 
-
-  std::cout << "BOO" << std::endl;
-
-  std::cout << __PRETTY_FUNCTION__ << ":" << __LINE__ << std::endl;
   return 0;
 }
 

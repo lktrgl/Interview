@@ -11,11 +11,16 @@ find_package (Threads REQUIRED)
 
 include_directories (
 				contrib/lggm/include
+				include
+				.
 				)
 
 add_executable (interview_cpp
 				main.cpp
 				mega_cpp_include.h
+				
+				src/tc_interview.cpp
+				include/tc_interview.h
 				)
 
 target_link_libraries ( interview_cpp
