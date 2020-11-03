@@ -19,7 +19,8 @@ using namespace std::chrono_literals;
 // Put your code below :
 
 
-
+// Put your code above :
+//----------------------------------
 
 int main ( [[maybe_unused]]int argc, [[maybe_unused]]char* argv[] )
 {
@@ -29,9 +30,11 @@ int main ( [[maybe_unused]]int argc, [[maybe_unused]]char* argv[] )
   // Put your code below :
 
 
-
-
   std::cout << "BOO" << std::endl;
+
+
+  // Put your code above :
+  //----------------------------------
 
   std::cout << __PRETTY_FUNCTION__ << ":" << __LINE__ << std::endl;
   return 0;
