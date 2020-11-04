@@ -1,5 +1,7 @@
 #include "mega_cpp_include.h"
 
+#include <lggm/lggm.h>
+
 //----------------------------------
 // use the dummy call finding out the actual type
 // catchType<>();
