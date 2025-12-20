@@ -11,6 +11,8 @@ set (CMAKE_C_FLAGS "-O0 -g3 -Wall -Wextra -Werror -Wno-error=unused-variable -Wn
 
 find_package (Threads REQUIRED)
 
+add_subdirectory( contrib/lggm build_lggm )
+
 include_directories (
 				contrib/lggm/include
 				)
@@ -22,6 +24,7 @@ add_executable (interview_cpp
 
 target_link_libraries ( interview_cpp
     ${CMAKE_THREAD_LIBS_INIT}
+    lggm
 	)
 
 add_executable (interview_c
