@@ -1,5 +1,7 @@
 #include "mega_cpp_include.h"
 
+// un-comment line below to enable the logger
+// #define LGGM_ENABLE_LOGGER
 #include <lggm/lggm.h>
 
 //----------------------------------
@@ -24,9 +26,9 @@ using namespace std::chrono_literals;
 // Put your code above :
 //----------------------------------
 
-int main ( [[maybe_unused]]int argc, [[maybe_unused]]char* argv[] )
+int main ([[maybe_unused]]int argc, [[maybe_unused]]char* argv[] )
 {
-  std::cout << __PRETTY_FUNCTION__ << ":" << __LINE__ << std::endl;
+  LGGM_SS();
 
   //----------------------------------
   // Put your code below :
@@ -38,7 +40,6 @@ int main ( [[maybe_unused]]int argc, [[maybe_unused]]char* argv[] )
   // Put your code above :
   //----------------------------------
 
-  std::cout << __PRETTY_FUNCTION__ << ":" << __LINE__ << std::endl;
   return 0;
 }
 

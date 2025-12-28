@@ -28,7 +28,7 @@
 #include <threads.h> /* (since C11)   Thread library */
 #include <time.h>  /* Time/date utilities */
 #ifndef __CYGWIN__
-#include <uchar.h> /* (since C11)   UTF-16 and UTF-32 character utilities */
+  #include <uchar.h> /* (since C11)   UTF-16 and UTF-32 character utilities */
 #endif /* not __CYGWIN__ */
 #include <wchar.h> /* (since C95)   Extended multibyte and wide character utilities */
 #include <wctype.h> /* (since C95)  Functions to determine the type contained in wide character data */
